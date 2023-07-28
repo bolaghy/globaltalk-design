@@ -1,0 +1,15 @@
+{
+  "name": "global-talk-project",
+  "version": "1.0.0",
+  "description": "my-project",
+  "main": "index.js",
+  "scripts": {
+    "code": "tailwindcss -i ./src/input.css -o ./dist/output.css --watch",
+    "build": "tailwindcss -i ./src/input.css -o ./dist/output.css "
+  },
+  "author": "bolaji-isaac",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.3.3"
+  }
+}
